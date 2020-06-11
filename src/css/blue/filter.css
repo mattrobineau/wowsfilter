@@ -1,0 +1,51 @@
+.filter .filterOptions {
+    vertical-align: top;
+    display: inline-block;
+    width: 54px;
+    height: 40px;
+    margin: 3px;
+    background: #E0E0E0;
+}
+
+.filter .filterOptions span {
+    font-size: 2.2em;
+    text-decoration: none;    
+}
+
+.filter .filterOptions span.sortName, li span {
+    font-size: 1.1em;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+/* .filter .filterOptions span.speedText {
+    font-size: 1.5em;
+    line-height: 40px;
+    background: #CBD2C8;
+    color: #F4F1EF;
+} */
+
+a, a:visited, a:active {
+    color: #5C6E73;
+}
+
+.filter .active {
+    background: #4FADC4;
+}
+
+.filter img.ship-attribute {
+    height: 40px;
+    width: 40px;
+}
+
+.filter {
+    float: left;
+    width: 100px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin:0;
+    padding:0;
+}

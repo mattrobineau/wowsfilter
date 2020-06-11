@@ -1,0 +1,80 @@
+.container {
+    display: inline-block;
+    width: 214px;
+    height: 148px;
+    position: relative;
+    background: #DAEAEF;
+    margin: 2px 2px;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+}
+
+.ship {
+    width: 214px;
+    height: 126px;
+}
+
+.ship img {
+    width: 214px;
+    height: 126px;
+}
+
+.ship .speed {
+    position: absolute;
+    padding: 1px;
+    bottom: 44px;
+    background: #9DBDC6;
+    z-index: 1;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.ship .ship-attributes {
+    position: absolute;
+    left:0;
+    bottom: 0px;
+    height: 44px;
+}
+
+.ship .ship-attributes .ship-attribute {
+    border-left: 2px solid #9DBDC6;
+    border-top: 2px solid #9DBDC6;
+    border-bottom: 2px solid #9DBDC6;
+    height: 40px;
+    width:40px;
+    display: inline-block;
+}
+
+.ship-attributes .ship-attribute span {
+    position: absolute;
+    bottom: 0;
+    background: #9DBDC6;
+    z-index: 1;
+    font-size: .8em;
+    font-weight: bold;
+    padding-right: 2px;
+}
+
+.ship .ship-attributes .ship-attribute:last-child {
+    border-right: 2px solid #9DBDC6;
+}
+
+.ship .ship-attributes .ship-attribute > img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-color: #DAEAEF;
+}
+
+.shiplist {
+    padding-left:48px;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}

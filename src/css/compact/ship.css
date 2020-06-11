@@ -1,0 +1,78 @@
+/* <div className="compact container">
+            <h3>{props.name}</h3>
+            <div className="ship">                
+                <div className="ship-attributes">
+                    <div className="ship-attribute">
+                        <div className="ship-attribute-header">{header}</div>
+                        <div className="ship-attribute-value">{value}</div>
+                    </div>         
+                    <div className="ship-attribute">
+                        <div className="ship-attribute-header">{header}</div>
+                        <div className="ship-attribute-value">{value}</div>
+                    </div>             
+                </div>
+            </div>
+        </div> */
+.compact.container {
+    display: inline-block;
+    width: 214px;
+    height: 112px;
+    position: relative;
+    background: rgba(224, 224, 224, 0.5);
+    margin: 2px 2px;
+    text-align: center;
+}
+
+.compact.container .ship-attribute {
+    display: inline-block;
+    width: 40px;    
+    text-align: center;
+    border: 2px solid black;
+}
+
+.compact.container .ship-attribute .ship-attribute-header {
+    background-color: #DAEAEF;
+}
+.compact.container .ship-attribute .ship-attribute-value {
+    background-color: #DAE9F9;
+}
+
+.shiplist table {
+    margin: 0 auto;
+}
+
+.shiplist table thead th {    
+    padding: 14px 16px;
+    background:#9DBDC6;
+}
+
+.shiplist table thead th:first-of-type {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.shiplist table tr:nth-child(odd) {
+    background: #DAEAEF;
+}
+
+.shiplist table td span {
+    font-size: 16px;
+    /* padding-right: 16px; */
+}
+
+.shiplist table td.center {
+    text-align: center;
+}
+
+.shiplist table div.icon {
+    display: inline-block;
+    width: 32px;
+}
+
+.shiplist table .icon img {
+    width: 1.3em;
+}
+
+.shiplist table img.destroyer {
+    width: 1em;
+}

@@ -1,0 +1,41 @@
+body {
+    background: #FFFFFF;
+    color: #272F32;
+}
+
+.App {
+    margin-top: 14px;
+}
+
+.help {
+    text-align: left;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+ .help img {
+    margin: 0 auto;
+    display: block;
+}
+
+.help h1 {
+    padding-top: 14px;
+    text-align: center;
+}
+
+.changelog {
+    text-align: left;
+    margin-top: 32px;
+}
+
+.changelog hr {
+    color: #272F32;
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(39, 47, 50, 0.5);
+}
+
+.changelog h4, .changelog li {
+    text-align: left;
+}

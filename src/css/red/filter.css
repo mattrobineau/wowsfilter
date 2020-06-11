@@ -1,0 +1,71 @@
+.filter .filterOptions {
+    vertical-align: top;
+    display: inline-block;
+    width: 54px;
+    height: 32px;
+    background: #DAEAEF;
+}
+
+.filter .view {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.filter .filterOptions img.view {
+    width: 1em;
+}
+
+.filter .tier .filterOptions span {
+    font-size: 1.5em;
+    text-decoration: none;    
+}
+
+.filter .filterOptions span.sortName, .filter .filterOptions span.groupName, li span {
+    font-size: 1.1em;
+    vertical-align: middle;
+    line-height: 32px;
+}
+
+a, a:visited, a:active {
+    color: #272F32;
+}
+
+.filter .active {
+    background: #FF3D2E;
+}
+
+.filter .active.view {
+    background: #9DBDC6;
+}
+
+.filter img.ship-attribute {
+    height: 32px;
+    width: 32px;
+}
+
+.filter li {
+    width: 60px;
+}
+
+.filter ul.filter-group {
+    background-color: #9DBDC6;
+    margin-top: 8px;
+    padding-bottom:3px;
+}
+
+.filter ul.filter-group li:nth-child(n+3) {
+    margin-top: 3px;
+}
+
+.filter {
+    float: left;
+    width: 60px;
+    margin: 0 14px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
